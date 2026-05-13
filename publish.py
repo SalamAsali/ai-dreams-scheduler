@@ -104,19 +104,23 @@ def publish_to_instagram(media_url, caption, media_type="REELS"):
 def publish_to_facebook(media_url, caption, media_type="REELS"):
     """Post to Facebook Page."""
     print(f"  [FB] Publishing...")
-    if media_type == "REELS":
-        result = api_post(
-            f"https://graph.facebook.com/v25.0/{PAGE_ID}/videos",
-            {"file_url": media_url, "description": caption, "access_token": TOKEN},
-        )
-    else:
-        result = api_post(
-            f"https://graph.facebook.com/v25.0/{PAGE_ID}/photos",
-            {"url": media_url, "message": caption, "access_token": TOKEN},
-        )
-    fb_id = result.get("id", "")
-    print(f"  [FB] Published: {fb_id}")
-    return fb_id
+    try:
+        if media_type == "REELS":
+            result = api_post(
+                f"https://graph.facebook.com/v25.0/{PAGE_ID}/videos",
+                {"file_url": media_url, "description": caption, "access_token": TOKEN},
+            )
+        else:
+            result = api_post(
+                f"https://graph.facebook.com/v25.0/{PAGE_ID}/photos",
+                {"url": media_url, "message": caption, "access_token": TOKEN},
+            )
+        fb_id = result.get("id", "")
+        print(f"  [FB] Published: {fb_id}")
+        return fb_id
+    except Exception as e:
+        print(f"  [FB] Failed: {e}")
+        return None
 
 
 def main():
