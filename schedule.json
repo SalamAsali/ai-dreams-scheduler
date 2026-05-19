@@ -148,7 +148,10 @@
     "video_file": "ai-freelance-economy.mp4",
     "media_type": "REELS",
     "publish_time": "2026-05-18T21:00:00-04:00",
-    "status": "pending"
+    "status": "published",
+    "ig_permalink": "https://www.instagram.com/reel/DYgIkZjiRE8/",
+    "fb_id": null,
+    "published_at": "2026-05-19T01:38:38.707977+00:00"
   },
   {
     "id": "ai-ads-targeting",
