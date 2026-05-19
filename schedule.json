@@ -160,7 +160,10 @@
     "video_file": "ai-ads-targeting.mp4",
     "media_type": "REELS",
     "publish_time": "2026-05-19T11:00:00-04:00",
-    "status": "pending"
+    "status": "published",
+    "ig_permalink": "https://www.instagram.com/reel/DYhsGMrAL_O/",
+    "fb_id": null,
+    "published_at": "2026-05-19T16:08:20.937903+00:00"
   },
   {
     "id": "ai-learning-speed",
