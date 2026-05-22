@@ -8,6 +8,7 @@ import json
 import os
 import sys
 import time
+import urllib.error
 import urllib.request
 import urllib.parse
 from datetime import datetime, timezone
@@ -118,6 +119,10 @@ def publish_to_facebook(media_url, caption, media_type="REELS"):
         fb_id = result.get("id", "")
         print(f"  [FB] Published: {fb_id}")
         return fb_id
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="replace")
+        print(f"  [FB] Failed: {e} — {body}")
+        return None
     except Exception as e:
         print(f"  [FB] Failed: {e}")
         return None
