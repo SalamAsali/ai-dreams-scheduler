@@ -30,7 +30,10 @@
     "video_file": "ai-content-creation-speed.mp4",
     "media_type": "REELS",
     "publish_time": "2026-05-19T21:00:00-04:00",
-    "status": "pending"
+    "status": "published",
+    "ig_permalink": "https://www.instagram.com/reel/DYpirMWgCov/",
+    "fb_id": null,
+    "published_at": "2026-05-22T17:19:56.433010+00:00"
   },
   {
     "id": "ai-knowledge-gap",
@@ -39,7 +42,10 @@
     "video_file": "ai-knowledge-gap.mp4",
     "media_type": "REELS",
     "publish_time": "2026-05-20T11:00:00-04:00",
-    "status": "pending"
+    "status": "published",
+    "ig_permalink": "https://www.instagram.com/reel/DYpiw1Pgtm8/",
+    "fb_id": null,
+    "published_at": "2026-05-22T17:19:56.433010+00:00"
   },
   {
     "id": "ai-seo-revolution",
@@ -48,7 +54,10 @@
     "video_file": "ai-seo-revolution.mp4",
     "media_type": "REELS",
     "publish_time": "2026-05-20T17:00:00-04:00",
-    "status": "pending"
+    "status": "published",
+    "ig_permalink": "https://www.instagram.com/reel/DYpi5SACPTk/",
+    "fb_id": null,
+    "published_at": "2026-05-22T17:19:56.433010+00:00"
   },
   {
     "id": "ai-agents-workforce",
@@ -57,7 +66,10 @@
     "video_file": "ai-agents-workforce.mp4",
     "media_type": "REELS",
     "publish_time": "2026-05-20T21:00:00-04:00",
-    "status": "pending"
+    "status": "published",
+    "ig_permalink": "https://www.instagram.com/reel/DYpi-4rinPi/",
+    "fb_id": null,
+    "published_at": "2026-05-22T17:19:56.433010+00:00"
   },
   {
     "id": "ai-copywriting-dead",
@@ -66,7 +78,10 @@
     "video_file": "ai-copywriting-dead.mp4",
     "media_type": "REELS",
     "publish_time": "2026-05-21T11:00:00-04:00",
-    "status": "pending"
+    "status": "published",
+    "ig_permalink": "https://www.instagram.com/reel/DYpjELPCFt_/",
+    "fb_id": null,
+    "published_at": "2026-05-22T17:19:56.433010+00:00"
   },
   {
     "id": "ai-data-goldmine",
@@ -75,7 +90,10 @@
     "video_file": "ai-data-goldmine.mp4",
     "media_type": "REELS",
     "publish_time": "2026-05-21T17:00:00-04:00",
-    "status": "pending"
+    "status": "published",
+    "ig_permalink": "https://www.instagram.com/reel/DYpjI9njNCa/",
+    "fb_id": null,
+    "published_at": "2026-05-22T17:19:56.433010+00:00"
   },
   {
     "id": "ai-social-media-algorithm",
@@ -84,7 +102,10 @@
     "video_file": "ai-social-media-algorithm.mp4",
     "media_type": "REELS",
     "publish_time": "2026-05-21T21:00:00-04:00",
-    "status": "pending"
+    "status": "published",
+    "ig_permalink": "https://www.instagram.com/reel/DYpjO1rHZ_n/",
+    "fb_id": null,
+    "published_at": "2026-05-22T17:19:56.433010+00:00"
   },
   {
     "id": "ai-video-editing-revolution",
@@ -93,7 +114,10 @@
     "video_file": "ai-video-editing-revolution.mp4",
     "media_type": "REELS",
     "publish_time": "2026-05-22T11:00:00-04:00",
-    "status": "pending"
+    "status": "published",
+    "ig_permalink": "https://www.instagram.com/reel/DYpjTOZkbn2/",
+    "fb_id": null,
+    "published_at": "2026-05-22T17:19:56.433010+00:00"
   },
   {
     "id": "ai-email-marketing",
