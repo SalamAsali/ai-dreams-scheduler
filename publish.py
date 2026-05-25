@@ -128,6 +128,9 @@ def publish_to_facebook(media_url, caption, media_type="REELS"):
         return None
 
 
+MAX_PER_RUN = 1  # Publish at most 1 post per cron run to maintain 3/day cadence
+
+
 def main():
     schedule = load_schedule()
     now = datetime.now(timezone.utc)
@@ -136,6 +139,8 @@ def main():
     for post in schedule:
         if post["status"] != "pending":
             continue
+        if published_count >= MAX_PER_RUN:
+            break
 
         publish_time = datetime.fromisoformat(post["publish_time"]).astimezone(
             timezone.utc
