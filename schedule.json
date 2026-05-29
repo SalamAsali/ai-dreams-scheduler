@@ -114,7 +114,10 @@
     "video_file": "ai-video-editing-revolution.mp4",
     "media_type": "REELS",
     "publish_time": "2026-05-25T17:00:00-04:00",
-    "status": "pending"
+    "status": "published",
+    "ig_permalink": "https://www.instagram.com/reel/DY7dkTBjGQX/",
+    "fb_id": null,
+    "published_at": "2026-05-29T16:21:36.420887+00:00"
   },
   {
     "id": "ai-email-marketing",
