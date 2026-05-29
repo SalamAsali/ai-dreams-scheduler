@@ -126,7 +126,10 @@
     "video_file": "ai-email-marketing.mp4",
     "media_type": "REELS",
     "publish_time": "2026-05-25T21:00:00-04:00",
-    "status": "pending"
+    "status": "published",
+    "ig_permalink": "https://www.instagram.com/reel/DY8CDKulYQe/",
+    "fb_id": null,
+    "published_at": "2026-05-29T21:40:26.241490+00:00"
   },
   {
     "id": "ai-customer-service",
