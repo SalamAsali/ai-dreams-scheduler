@@ -138,7 +138,10 @@
     "video_file": "ai-customer-service.mp4",
     "media_type": "REELS",
     "publish_time": "2026-05-26T11:00:00-04:00",
-    "status": "pending"
+    "status": "published",
+    "ig_permalink": "https://www.instagram.com/reel/DY8cttNEcfJ/",
+    "fb_id": null,
+    "published_at": "2026-05-30T01:33:25.390184+00:00"
   },
   {
     "id": "ai-freelance-economy",
